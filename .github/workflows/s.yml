@@ -3,7 +3,7 @@ name: Ejecutar RD
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 20 * * 0' # Ejecuta todos los domingos a las 8 PM UTC timeszal
+    - cron: '0 20 * * 0' # Ejecuta todos los domingos a las 8 PM UTC timesza
 
 jobs:
   execute-script:
